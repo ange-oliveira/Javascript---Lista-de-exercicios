@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // função que imprime quantos tem entre 10 e 20 e quantos tem entre 0 e 10 e maior que 20.
+        let numeros = [15, 20, 5, 8, 60, 2, 72, 6, 11, 17]
+        let intervalo = 0
+        let nintervalo = 0
+
+        function contagemdointervalo() {
+            for (let i = 0; i < numeros.length; i++) {
+                if (numeros[i] >= 10 & numeros[i] <= 20) {
+                    intervalo++
+
+                } else {
+                    nintervalo++
+                }
+                console.log(intervalo)
+                console.log(nintervalo)
+
+            }
+        }
+        contagemdointervalo()
+    </script>
+
+</body>
+
+</html>
